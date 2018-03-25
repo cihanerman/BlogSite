@@ -13,3 +13,7 @@ module.exports.addPost = function (req, res) {
 
 	res.res.redirect("index");
 }
+
+module.exports.index = function (req, res) {
+	res.render("addPost");
+}
