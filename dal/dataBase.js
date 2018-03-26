@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 mongoose.Promise = require("bluebird");
 
-var DbUrl = "mongodb:localhost/blogSite";
+var DbUrl = "mongodb://localhost/blogSite";
 
 mongoose.connect(DbUrl, function (err) {
 	if (err) {
